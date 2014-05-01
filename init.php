@@ -198,7 +198,7 @@ class Af_Feedmod extends Plugin implements IHandler
         print "<p><button dojoType=\"dijit.form.Button\" type=\"submit\">".__("Save")."</button>";
 
         print "</form>";
-        print '<p>Look at <a href="https://github.com/mbirth/ttrss_plugin-af_feedmod/">af_feedmod on Github</a> for help with the syntax.</p>';
+        print "<p>Look at <a href=\"https://github.com/mbirth/ttrss_plugin-af_feedmod/\">af_feedmod on Github</a> for help with the syntax.</p>";
     }
 
     function save()
