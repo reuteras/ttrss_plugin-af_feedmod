@@ -6,6 +6,6 @@
     "match": "DilbertDailyStrip",
     "config": {
         "type": "xpath",
-        "xpath": "div[contains(@class, 'STR_Image')]"
+        "xpath": "div[contains(@class, 'comic-item-container')]"
     }
 }
