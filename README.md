@@ -1,5 +1,7 @@
 # ttrss_plugin-af_feedmod
 
+![Linter](https://github.com/reuteras/ttrss_plugin-af_feedmod/workflows/Linter/badge.svg)
+
 This is a plugin for Tiny Tiny RSS (tt-rss). It allows you to replace an article's contents by the contents of an element on the linked URL's page, i.e. create a "full feed".
 
 
