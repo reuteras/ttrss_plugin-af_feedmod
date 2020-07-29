@@ -1,11 +1,9 @@
-ttrss_plugin-af_feedmod
-=======================
+# ttrss_plugin-af_feedmod
 
 This is a plugin for Tiny Tiny RSS (tt-rss). It allows you to replace an article's contents by the contents of an element on the linked URL's page, i.e. create a "full feed".
 
 
-Installation
-------------
+## Installation
 
 Checkout the directory into your plugins folder like this (from tt-RSS root directory):
 
@@ -17,8 +15,7 @@ $ git clone git://github.com/mbirth/ttrss_plugin-af_feedmod.git plugins/af_feedm
 Then enable the plugin in preferences.
 
 
-Configuration
--------------
+## Configuration
 
 The configuration is done in JSON format. In the preferences, you'll find a new tab called *FeedMod*. Use the large field to enter/modify the configuration data and click the **Save** button to store it.
 
@@ -71,8 +68,7 @@ If **type** was set to `xpath` there is an additional option **cleanup** availab
 If you get an error about "Invalid JSON!", you can use [JSONLint](http://jsonlint.com/) to locate the erroneous part.
 
 
-XPath
------
+## XPath
 
 ### Tools
 
