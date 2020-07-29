@@ -8,8 +8,8 @@ This is a plugin for Tiny Tiny RSS (tt-rss). It allows you to replace an article
 Checkout the directory into your plugins folder like this (from tt-RSS root directory):
 
 ```sh
-$ cd /var/www/ttrss
-$ git clone git://github.com/mbirth/ttrss_plugin-af_feedmod.git plugins/af_feedmod
+cd /var/www/ttrss
+git clone git://github.com/mbirth/ttrss_plugin-af_feedmod.git plugins/af_feedmod
 ```
 
 Then enable the plugin in preferences.
@@ -33,10 +33,6 @@ A configuration looks like this:
     "type": "xpath",
     "xpath": "div[@class='bacontent']"
 },
-"n24.de": {
-    "type": "xpath",
-    "xpath": "div[@class='news']"
-},
 "golem0Bde0C": {
     "type": "xpath",
     "xpath": "article"
@@ -45,12 +41,6 @@ A configuration looks like this:
     "type": "xpath",
     "xpath": "div[@id='comic']"
 },
-"blog.beetlebum.de": {
-    "type": "xpath",
-    "xpath": "div[@class='entry-content']",
-    "cleanup": [ "header", "footer" ],
-}
-
 }
 ```
 
@@ -83,7 +73,7 @@ To test your XPath expressions, you can use these Chrome extensions:
 
 Some XPath expressions you could need (the `//` is automatically prepended and must be omitted in the FeedMod configuration):
 
-##### HTML5 &lt;article&gt; tag
+##### HTML5 article tag
 
 ```html
 <article>…article…</article>
