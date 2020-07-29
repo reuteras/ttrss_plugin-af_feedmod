@@ -73,7 +73,7 @@ To test your XPath expressions, you can use these Chrome extensions:
 
 Some XPath expressions you could need (the `//` is automatically prepended and must be omitted in the FeedMod configuration):
 
-##### HTML5 article tag
+#### HTML5 article tag
 
 ```html
 <article>…article…</article>
@@ -83,7 +83,7 @@ Some XPath expressions you could need (the `//` is automatically prepended and m
 //article
 ```
 
-##### DIV inside DIV
+#### DIV inside DIV
 
 ```html
 <div id="content"><div class="box_content">…article…</div></div>`
@@ -93,7 +93,7 @@ Some XPath expressions you could need (the `//` is automatically prepended and m
 //div[@id='content']/div[@class='box_content']
 ```
 
-##### Multiple classes
+#### Multiple classes
 
 ```html
 <div class="post-body entry-content xh-highlight">…article…</div>
