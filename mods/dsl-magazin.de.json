@@ -1,6 +1,0 @@
-{
-"www.dsl-magazin.de":{
-"type": "xpath",
-"xpath": "div[@class='content']"
-}
-}
